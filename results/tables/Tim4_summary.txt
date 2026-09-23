@@ -1,0 +1,20 @@
+Tim4 (Timd4) promoter ATAC-seq: old vs young peritoneal macrophages
+Source: Lu et al., bioRxiv 2025.06.11.659200, Supplementary Table S2 sheet B (DESeq2, sex-stratified)
+log2FC x16 = DESeq2 per-month coefficient x 16 (approximate old vs young difference). p, padj = original values.
+Timd4 assigned peaks in file: 13; promoter peaks (-1000 to +1000 bp): 1
+
+Peak: chr11:46810157:46812849  (chr11:46810158-46812849)
+Distance to TSS: 704 bp;  Annotation: intron (NM_178759, intron 1 of 8)
+
+[Female]
+  log2FC x16 = -0.2037   (per-month = -0.01273)
+  lfcSE  x16 = 0.1643   (per-month = 0.01027)
+  pvalue = 0.2152;  padj = 0.5797  not significant (padj >= 0.05)
+  direction: Decreased in old
+
+[Male]
+  log2FC x16 = -0.5709   (per-month = -0.03568)
+  lfcSE  x16 = 0.1291   (per-month = 0.008071)
+  pvalue = 9.821e-06;  padj = 0.001583  significant (**)
+  direction: Decreased in old
+

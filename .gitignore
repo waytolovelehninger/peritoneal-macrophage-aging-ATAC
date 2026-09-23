@@ -1,0 +1,24 @@
+# Input data (download separately; see data/README_data.md)
+data/*.xlsx
+data/*.xls
+data/*.csv
+
+# R session / project files
+.Rhistory
+.RData
+.Rapp.history
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Intermediate objects and outputs not tracked in git
+*.rds
+results/intermediate/
+results/sensitivity_2kb/
+results/figures/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
